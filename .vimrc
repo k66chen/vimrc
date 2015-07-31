@@ -4,6 +4,7 @@
 :set shiftwidth=4
 :set expandtab
 :set smarttab
+:set smartcase
 colorscheme inkpot
 :syntax on
 :filetype plugin indent on
@@ -12,6 +13,7 @@ colorscheme inkpot
 :set showcmd
 
 map <F2> =aB 
+imap jk <esc>
 
 
 " restore cursor!
